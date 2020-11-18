@@ -1,0 +1,97 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7fdde359-ec10-4d83-ae52-98fffa8f7b72": {
+        "id": "7fdde359-ec10-4d83-ae52-98fffa8f7b72",
+        "parent": null,
+        "name": "alexatrigger.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "alexatrigger.js",
+        "cursor": {
+          "lineNumber": 5,
+          "column": 3
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "alexatrigger"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK15970ba19cb64f6f9b22e6d5710707f0",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1605695120891,
+        "testCases": {
+          "d27222c3-62ca-4b3b-8e31-bd1b31a19e29": {
+            "id": "d27222c3-62ca-4b3b-8e31-bd1b31a19e29",
+            "name": "Test event",
+            "functionId": "7fdde359-ec10-4d83-ae52-98fffa8f7b72",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "7fdde359-ec10-4d83-ae52-98fffa8f7b72"
+    ],
+    "currentFileId": "7fdde359-ec10-4d83-ae52-98fffa8f7b72",
+    "resources": {
+      "alexaSK15970ba19cb64f6f9b22e6d5710707f0": {
+        "name": "alexaSK15970ba19cb64f6f9b22e6d5710707f0",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.15970ba1-9cb6-4f6f-9b22-e6d5710707f0",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.5",
+    "projectName": "alexatrigger",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1605696664931
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "alexatrigger",
+      "url": "https://github.com/HirudineeADRT/alexatrigger"
+    }
+  }
+}
